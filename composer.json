@@ -1,0 +1,20 @@
+{
+    "name": "costa92/hasher",
+    "description": "Md5 support in laravel",
+    "type": "MIT",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "costa92",
+            "email": "944310536@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "Costa92\\Hasher\\":"src/"
+        }
+    }
+}
